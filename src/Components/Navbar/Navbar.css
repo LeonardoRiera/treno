@@ -1,0 +1,26 @@
+.logodeTreno {
+    width: 6%;
+}
+
+.navContainer {
+    background-color: rgb(9, 9, 9);
+    overflow: hidden;
+}
+
+.links {
+    color: white;
+}
+
+.frontNav {
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+
+}
+
+.navNombre {
+    font-family: 'Chillax', sans-serif;
+    color: #F7CCCF;
+    font-size: 1.5vmax;
+    margin: 0;
+}
