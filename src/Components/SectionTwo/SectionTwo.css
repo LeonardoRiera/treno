@@ -1,0 +1,48 @@
+.sectionTwoContainer {
+    background-color: #090909;
+    width: 100%;
+    padding-bottom: 2vmax;
+   
+    
+
+}
+
+.elementoFotoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.elementoFoto {
+    width: 70%;
+    margin-top: -4.5vmax;
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 1.8s ease, transform 1.8s ease;
+}
+
+.elementoFoto.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.elementoContainerTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    overflow: hidden;
+    background-image: url('../../image/sombra.png') ;
+    background-position: start end;
+    background-size:contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.elementoTitulo {
+    font-size: 4vmax;
+    font-family: 'Excon', sans-serif;
+    color: #F7CCCF;
+}

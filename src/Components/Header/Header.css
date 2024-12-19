@@ -1,5 +1,5 @@
 .headerContainer {
-    padding: 5vmax 0;
+    padding: 5vmax 0 1vmax 0;
     background-color: rgb(9, 9, 9);
     overflow: hidden;
     height: 100vh;
@@ -43,7 +43,7 @@
 h1 {
     font-family: 'Excon', sans-serif;
     padding-left: 2vmax;
-    font-size: 2.5vmax;
+    font-size: 2.1vmax;
     margin-top: -3vmax;
     color: #F7CCCF;
 }

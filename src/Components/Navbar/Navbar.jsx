@@ -1,5 +1,5 @@
 import React from 'react'
-import tdeTreno from '../../image/tdeTreno.png'
+import tdeTreno from '../../image/tdeTrenoo.png'
 import './Navbar.css'
 
 const Navbar = () => {
