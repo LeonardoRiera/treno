@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import unElemento from '../../image/unElemento1.png'
 import sombra from '../../image/sombra.png'
+import diamond from '../../image/diamond.png'
 import './SectionTwo.css'
 
 const SectionTwo = () => {
@@ -40,9 +41,21 @@ const SectionTwo = () => {
         </div>
         <div className='col-6 elementoContainerTexto'>
             <img src={sombra} alt="sombra background" className='sombra' />
-            <h2 className='elementoTitulo'>Nuestros Servicios</h2>
-            <p className='elementoParrafo'>Tu Proyecto Puede Crecer Aun Más y LLegar a Más Gente!</p>
-            <p className='elementoParrafo'>Descrubrí Todo lo que el Universo Digital Tiene para Vos!</p>
+            <div className='items'>
+              <img src={diamond} alt="diamond" className='diamond'/>
+              <p className='elementoParrafo'>Llevá tu Proyecto al siguiente nivel con Soluciones Digitales.</p>
+            </div>
+            <hr className='linea' />
+            <div className='items'>
+              <img src={diamond} alt="diamond" className='diamond'/>
+              <p className='elementoParrafo'>Atraé a tu público con creatividad y tecnología.</p>
+            </div>
+            <hr className='linea' />
+            <div className='items'>
+              <img src={diamond} alt="diamond" className='diamond'/>
+              <p className='elementoParrafo'>Maximizá tu alcance y crecé en el mundo online.</p>
+            </div>
+            
             
         </div>
 

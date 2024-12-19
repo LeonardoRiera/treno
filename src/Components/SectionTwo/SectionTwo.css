@@ -2,10 +2,6 @@
     background-color: #090909;
     width: 100%;
     padding-bottom: 2vmax;
-    
-   
-   
-    
 
 }
 
@@ -16,7 +12,7 @@
 
 .elementoFoto {
     width: 70%;
-    margin-top: -4.5vmax;
+    margin-top: -3vmax;
     opacity: 0;
     transform: translateY(25px);
     transition: opacity 1.8s ease, transform 1.8s ease;
@@ -34,30 +30,46 @@
     flex-direction: column;
     align-items: start;
     justify-content: start;
-   /*  /* overflow: hidden; */
-    /* background-image: url('../../image/sombra.png') ;
-    background-position:50% 50%; 
-    background-size: auto;
-    background-repeat: no-repeat;  */
-    padding: 2vmax 0;
+    padding: 0 0 2vmax 0;
     position: relative;
    
    
     
 }
 
-.elementoTitulo {
-    font-size: 4vmax;
+
+
+.items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5vmax 10vmax 0.5vmax 3vmax;
+    z-index: 2;
+    gap: 1vmax;
+}
+.diamond {
+    width: 8%;
+    align-self: self-start;
+
+
+}
+.elementoParrafo {
+    font-size: 1.4vmax;
     font-family: 'Excon', sans-serif;
     color: #F7CCCF;
     z-index: 2;
+   
+
 }
 
-.elementoParrafo {
-    font-size: 1.5vmax;
-    font-family: 'Excon', sans-serif;
-    color: #F7CCCF;
+.linea {
+    color: rgb(95, 0, 95);
     z-index: 2;
+    width: 30vmax;
+    border: solid 1px rgb(96, 0, 96);
+    align-self: self-start;
+    margin-left: 5vmax;
+   
 }
 
 .sombra {
