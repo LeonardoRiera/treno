@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import unElemento from '../../image/unElemento1.png'
+import sombra from '../../image/sombra.png'
 import './SectionTwo.css'
 
 const SectionTwo = () => {
@@ -38,9 +39,11 @@ const SectionTwo = () => {
             <img src={unElemento} alt="logo simple" className= 'elementoFoto' ref={imageRef} id="miMontaña" />
         </div>
         <div className='col-6 elementoContainerTexto'>
+            <img src={sombra} alt="sombra background" className='sombra' />
             <h2 className='elementoTitulo'>Nuestros Servicios</h2>
             <p className='elementoParrafo'>Tu Proyecto Puede Crecer Aun Más y LLegar a Más Gente!</p>
             <p className='elementoParrafo'>Descrubrí Todo lo que el Universo Digital Tiene para Vos!</p>
+            
         </div>
 
     </div>
